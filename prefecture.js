@@ -105,7 +105,7 @@ let ttl = document.createElement("p");
 //画像
 let pic = document.createElement("img");
   pic.id = "pics";
-  pic.src = "./images/全国.jpg"
+  pic.src = "./全国.jpg"
 
   pic.style.position = "absolute";
   pic.style.left = "150px";
@@ -153,7 +153,7 @@ let swt = document.createElement("input");
         let indexRmv = "btn" + ("00" + String(i)).slice(-2);
       document.getElementById(indexRmv).remove();
       }
-      pic.src = "./images/解説.jpg"
+      pic.src = "./解説.jpg"
       pic.style.position = "absolute";
       pic.style.left = "100px";
       pic.style.top = "10px";
