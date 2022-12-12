@@ -122,7 +122,7 @@ function listener(e,index) {
   document.getElementById(indexPre).style.background = "lightgreen";
   document.getElementById(index).style.background = "lightpink";
   indexPre = index;
-  pic.src = "./images/" + document.getElementById(index).value + ".jpg";
+  pic.src = "./" + document.getElementById(index).value + ".jpg";
 }
 
 
